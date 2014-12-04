@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".MyActivity"
+    android:id="@+id/infoEvnets">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoEventName"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Event Name"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/edittext_middle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/infoEventLocation"
+        android:ems="10"
+        android:hint="Location"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/infoEventName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/edittext_middle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:id="@+id/infoEventDate"
+        android:textColor="@color/black"
+        android:hint="Date"
+        android:layout_below="@+id/infoEventLocation"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/edittext_middle"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Time"
+        android:id="@+id/infoventTime"
+        android:layout_below="@+id/infoEventDate"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/edittext_middle"
+        android:layout_marginTop="10dp" />
+
+
+
+</RelativeLayout>

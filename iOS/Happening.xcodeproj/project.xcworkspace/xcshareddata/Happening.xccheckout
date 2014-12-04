@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0C9C634E-AA7A-4BEE-AAF2-DFC2FDBFBF3C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Happening</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3FB6E9C817ED855D03314824BB2D3B5354C4254C</key>
+		<string>https://bitbucket.org/nirvan543/ioshappening.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Happening.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3FB6E9C817ED855D03314824BB2D3B5354C4254C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/nirvan543/ioshappening.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3FB6E9C817ED855D03314824BB2D3B5354C4254C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3FB6E9C817ED855D03314824BB2D3B5354C4254C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Happening</string>
+		</dict>
+	</array>
+</dict>
+</plist>

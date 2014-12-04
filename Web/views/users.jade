@@ -1,0 +1,45 @@
+extends layout
+
+block content
+
+    nav(class="navbar navbar-default" role="navigation")
+        div(class="container-fluid")
+            div(class="navbar-header")
+                button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+            a(class="navbar-brand" href="/") happening
+            a(class="navbar-brand" href="/users") users
+            a(class="navbar-brand" href="/events") events
+
+    #wrapper
+        #userInfo
+            h2 user Info
+            p
+                strong User Name:
+                |   <span id='userName'></span>
+                br
+                strong User Email:
+                |   <span id='userEmail'></span>
+                br
+                strong user Total Events:
+                |   <span id='userTotalEvents'></span>
+                br
+        h2 user List
+        #userList
+            table(class="table")
+                thead
+                    th userName
+                    th userEmail
+                    th userTotalEvents
+                    th delete
+                tbody
+        h2 Add user
+        #adduser
+            fieldSet
+                input#inputUserName(type='text',placeholder='User Name' class="form-control")
+                br
+                input#inputUserEmail(type='text',placeholder='User Email' class="form-control")
+                br
+                input#inputUserPassword(type='password',
+                placeholder='User Password' class="form-control")
+                br
+                button#btnAddUser(class='btn btn-default') Add user

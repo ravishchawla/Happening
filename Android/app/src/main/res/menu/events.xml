@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.happening.happening.EventsActivity" >
+    <item android:id="@+id/events_action_add"
+        android:title="Add"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="0"
+        android:showAsAction="always" />
+    <item android:id= "@+id/events_action_myEvents"
+        android:title="My Events"
+        android:orderInCategory="1"
+        android:checked="true"
+        android:showAsAction="never"/>
+    <item android:id="@+id/events_action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="2"
+        android:showAsAction="never" />
+    <item android:id="@+id/events_action_logout"
+        android:title="Logout"
+        android:orderInCategory="3"
+        android:showAsAction="never" />
+</menu>

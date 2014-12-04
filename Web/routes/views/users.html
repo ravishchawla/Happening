@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Users</title>
+		<link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav role="navigation" class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header"><button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed"></button></div>
+				<a href="/" class="navbar-brand">happening</a><a href="/users" class="navbar-brand">users</a><a href="/events" class="navbar-brand">events</a>
+			</div>
+		</nav>
+		<div id="wrapper">
+			<div id="userInfo">
+				<h2>user Info</h2>
+				<p><strong>User Name:</strong>  <span id='userName'></span><br><strong>User Email:</strong>  <span id='userEmail'></span><br><strong>user Total Events:</strong>  <span id='userTotalEvents'></span><br></p>
+			</div>
+			<h2>user List</h2>
+			<div id="userList">
+				<table class="table">
+					<thead>
+						<th>userName</th>
+						<th>userEmail</th>
+						<th>userTotalEvents</th>
+						<th>delete</th>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+			<h2>Add user</h2>
+			<div id="adduser">
+				<fieldSet><input id="inputUserName" type="text" placeholder="User Name" class="form-control"><br><input id="inputUserEmail" type="text" placeholder="User Email" class="form-control"><br><input id="inputUserPassword" type="password" placeholder="User Password" class="form-control"><br><button id="btnAddUser" class="btn btn-default">Add user</button></fieldSet>
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script><script src="/javascripts/global.js"></script>
+	</body>
+</html>

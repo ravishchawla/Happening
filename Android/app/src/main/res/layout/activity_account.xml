@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/halong"
+    android:layout_centerVertical="true"
+    tools:context=".MyActivity">
+
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/addEventName"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/edittext_middle"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textNoSuggestions"
+        android:id="@+id/addEventLocation"
+        android:ems="10"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:padding="10dp"
+        android:layout_below="@+id/addEventName"
+        android:background="@drawable/edittext_middle"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:padding="10dp"
+        android:id="@+id/addventDate"
+        android:drawableLeft="@drawable/ic_action_secure"
+        android:hint="Password"
+        android:layout_below="@+id/addEventLocation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_middle"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="Confirm Password"
+        android:id="@+id/addventTime"
+        android:drawableLeft="@drawable/ic_action_secure"
+        android:layout_below="@+id/addventDate"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_middle"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Sign Up Now"
+        android:ems="10"
+        android:padding="10dp"
+        android:id="@+id/signUpSubmitButton"
+        android:hint="Password"
+        android:layout_below="@+id/addventTime"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_select"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>

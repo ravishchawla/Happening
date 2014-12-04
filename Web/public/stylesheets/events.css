@@ -1,0 +1,35 @@
+body {
+	/*background-color: #70CAF6;*/
+	background - color: rgba(1, 1, 1, 0.1);
+	padding - top: 80 px;
+}
+
+.event-root-box {
+
+	border: 2 px solid white;
+	box - shadow: 0 1 px 2 px rgba(0, 0, 0, 0.3);
+	background - color: white;
+	border - radius: 8 px;
+	width: 800 px;
+	height: 200 px;
+	margin: 25 px;
+
+}
+
+.event-picture-circle {
+	float: left;
+	width: 100 % ;
+	height: auto;
+	margin - left: 15 px;
+	margin - right: 15 px;
+}
+
+.scrollable - menu {
+	height: auto;
+	max - height: 500 px;
+	overflow - x: hidden;
+}
+
+.center - block {
+	float: none;
+}

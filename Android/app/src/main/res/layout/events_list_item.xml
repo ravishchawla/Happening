@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_marginBottom="100dp"
+    android:layout_height="150dp" >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/itemblock_middle"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/eventsModi"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:text="Lorem Ipsum"
+        android:singleLine="true"
+        android:id="@+id/eventsHeader"
+        android:layout_toEndOf="@+id/eventsModi"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageButtonLike" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="\@Ipsum"
+        android:textColor="#8F000000"
+        android:id="@+id/eventsLocation"
+        android:layout_alignBottom="@+id/eventsModi"
+        android:layout_alignLeft="@+id/eventsHeader"
+        android:layout_alignStart="@+id/eventsHeader"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonLike"
+        android:src="@drawable/ic_action_good"
+        android:background="@android:color/transparent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:tag="1"
+        android:layout_toStartOf="@+id/imageButtonLocation" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonLocation"
+        android:src="@drawable/ic_action_place"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/imageButtonLike"
+        android:layout_marginRight="15dp"
+        android:layout_toStartOf="@+id/imageButtonEvent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonEvent"
+        android:src="@drawable/ic_action_event"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/imageButtonLocation"
+        android:layout_marginRight="15dp"
+        android:layout_toStartOf="@+id/imageButtonShare" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonShare"
+        android:src="@drawable/ic_action_share"
+        android:background="@android:color/transparent"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:layout_alignTop="@+id/imageButtonEvent"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButtonInfo"
+        android:src="@drawable/ic_action_about"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/imageButtonLike"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+</RelativeLayout>

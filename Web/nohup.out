@@ -1,0 +1,505 @@
+
+> application-name@0.0.1 start /node/happening
+> node ./bin/www
+
+[0mGET /events/eventlist?# [32m200 [0m32.825 ms - 2393[0m
+[0mPOST /users/auth?# [32m200 [0m90.353 ms - 48[0m
+[0mGET /events/eventlist?# [32m200 [0m3.497 ms - 2393[0m
+[0mPOST /users/auth?# [33m400 [0m77.444 ms - 29[0m
+[0mPOST /users/auth?# [32m200 [0m76.002 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m76.146 ms - 48[0m
+[0mPOST /users/auth [32m200 [0m1.078 ms - 45[0m
+[0mGET /events/eventlist?# [32m200 [0m3.730 ms - 2393[0m
+[0mPOST /users/auth [32m200 [0m82.564 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m77.864 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m75.816 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m79.055 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m75.565 ms - 48[0m
+[0mPOST /users/auth?# [32m200 [0m75.945 ms - 48[0m
+
+npm ERR! application-name@0.0.1 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the application-name@0.0.1 start script.
+npm ERR! This is most likely a problem with the application-name package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls application-name
+npm ERR! There is likely additional logging output above.
+npm ERR! System Linux 3.13.0-36-generic
+npm ERR! command "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! cwd /node/happening
+npm ERR! node -v v0.10.32
+npm ERR! npm -v 1.4.28
+npm ERR! code ELIFECYCLE
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /node/happening/npm-debug.log
+npm ERR! not ok code 0
+
+> application-name@0.0.1 start /node/happening
+> node ./bin/www
+
+[0mPOST /users/auth?# [32m200 [0m114.853 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m7.501 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.688 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.397 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m6.567 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.536 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.130 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.127 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.309 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.310 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.076 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.496 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.143 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.518 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.373 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.706 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.139 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.332 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m3.205 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.528 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.755 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.532 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.330 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.244 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.741 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.214 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m3.381 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m9.254 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.101 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.010 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.625 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.721 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.079 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.017 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.804 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.769 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.528 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.627 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.217 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.672 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.570 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.394 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.102 ms - 6734[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m5.418 ms - 4476[0m
+[0mGET /events/eventlist?# [32m200 [0m2.243 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.337 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.664 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.104 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.555 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.650 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.680 ms - 6734[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.411 ms - 4476[0m
+[0mGET /events/eventlist?# [32m200 [0m1.672 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.683 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.666 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.065 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.671 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.061 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.995 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m2.331 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.628 ms - 6734[0m
+[0mGET /events/eventlist?# [32m200 [0m1.769 ms - 6734[0m
+[0mPOST /users/auth?# [32m200 [0m78.066 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.699 ms - 6734[0m
+[0mGET / [36m304 [0m264.095 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m1.975 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.838 ms - -[0m
+[0mGET /events [36m304 [0m64.954 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m0.654 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.355 ms - -[0m
+[0mDELETE /events/deleteevent/543319a2f1f12158380e2d4d [32m200 [0m3.666 ms - 10[0m
+[0mDELETE /events/deleteevent/543319eff1f12158380e2d4e [32m200 [0m1.718 ms - 10[0m
+[0mDELETE /events/deleteevent/543321ae4a7e30c238c8c42f [32m200 [0m1.047 ms - 10[0m
+[0mDELETE /events/deleteevent/543321c54a7e30c238c8c430 [32m200 [0m1.012 ms - 19[0m
+[0mDELETE /events/deleteevent/c99cc814-db85-4bac-9fde-da84eef0fc41 [32m200 [0m1.064 ms - 10[0m
+[0mDELETE /events/deleteevent/22648b61-8462-45d2-95c5-454e7f43cc9f [32m200 [0m0.985 ms - 10[0m
+[0mDELETE /events/deleteevent/3176f9b6-7f01-4281-a14b-1159ae04d59e [32m200 [0m0.929 ms - 10[0m
+[0mDELETE /events/deleteevent/acec5c1a-0a07-4d0d-b336-cb5c8838d0cd [32m200 [0m1.319 ms - 10[0m
+[0mDELETE /events/deleteevent/a44bb5b0-fa80-4e0e-99c4-54b8360a87d6 [32m200 [0m0.891 ms - 19[0m
+[0mDELETE /events/deleteevent/a2b3692d-8dcc-4463-b9ac-8fe0c571859f [32m200 [0m0.865 ms - 19[0m
+[0mDELETE /events/deleteevent/ff32527e-42fb-40be-bebc-7dd1fd11619f [32m200 [0m0.926 ms - 10[0m
+[0mDELETE /events/deleteevent/554d6d9b-1101-4e4f-9932-4456f4f308bf [32m200 [0m1.289 ms - 10[0m
+[0mDELETE /events/deleteevent/4e20ac67-beb0-43b7-9d23-fee6add84e52 [32m200 [0m0.897 ms - 10[0m
+[0mDELETE /events/deleteevent/f212ca0d-957f-4e24-b762-6ec18a026c42 [32m200 [0m0.991 ms - 10[0m
+[0mDELETE /events/deleteevent/3a22cdbb-aedb-4e5b-994f-fc79b9908410 [32m200 [0m0.931 ms - 10[0m
+[0mDELETE /events/deleteevent/390d3051-a8e8-446a-acfb-87cae030b408 [32m200 [0m1.444 ms - 10[0m
+[0mDELETE /events/deleteevent/08899db9-e74c-4f27-bb6b-369c67953c68 [32m200 [0m1.709 ms - 10[0m
+[0mGET /events [36m304 [0m40.409 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m0.382 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.511 ms - -[0m
+[0mGET /events/eventlist [32m200 [0m1.535 ms - 4476[0m
+[0mGET /users/userlist [32m200 [0m2.690 ms - 28333[0m
+[0mGET /events/eventlist?# [32m200 [0m1.073 ms - 2[0m
+[0mPOST /events/addevent?# [32m200 [0m3.649 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m1.027 ms - 198[0m
+[0mPOST /events/addevent?# [32m200 [0m2.260 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m0.856 ms - 395[0m
+[0mGET /events/eventlist?# [32m200 [0m1.872 ms - 395[0m
+[0mGET /events/eventlist?# [32m200 [0m1.532 ms - 395[0m
+[0mPOST /events/addevent?# [32m200 [0m2.348 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m0.888 ms - 600[0m
+[0mGET /events/eventlist?# [32m200 [0m1.060 ms - 600[0m
+[0mGET /events/eventlist?# [32m200 [0m1.359 ms - 600[0m
+[0mGET /events/eventlist?# [32m200 [0m1.130 ms - 600[0m
+[0mPOST /events/addevent?# [32m200 [0m2.264 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m1.107 ms - 789[0m
+[0mGET /events/eventlist?# [32m200 [0m1.143 ms - 789[0m
+[0mGET /events/eventlist?# [32m200 [0m2.040 ms - 789[0m
+[0mPOST /events/addevent?# [32m200 [0m1.949 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m1.081 ms - 988[0m
+[0mPOST /events/addevent?# [32m200 [0m1.945 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m1.567 ms - 1198[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.677 ms - 1198[0m
+[0mGET /events/eventlist?# [32m200 [0m1.114 ms - 1198[0m
+[0mGET /events/eventlist?# [32m200 [0m1.381 ms - 1198[0m
+[0mPOST /users/auth?# [32m200 [0m77.743 ms - 68[0m
+[0mGET /events/eventlist?# [32m200 [0m1.771 ms - 1198[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m4.770 ms - 2[0m
+[0mPOST /users/auth?# [32m200 [0m79.092 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.902 ms - 1198[0m
+[0mPOST /users/auth?# [32m200 [0m77.352 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.745 ms - 1198[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.294 ms - 1198[0m
+[0mGET /events/eventlist?# [32m200 [0m2.020 ms - 1198[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.110 ms - 1198[0m
+[0mGET /events/eventlist?# [32m200 [0m1.753 ms - 1198[0m
+[0mPOST /users/auth [32m200 [0m77.840 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m77.061 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m78.280 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m77.436 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m77.186 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m79.726 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m77.858 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m2.159 ms - 1198[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.475 ms - 1198[0m
+[0mGET /events/eventlist?# [32m200 [0m1.140 ms - 1198[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.830 ms - 1198[0m
+[0mDELETE /events/deleteevent/c9eaa956-52fa-4e25-95a0-c12ccdd96aae?# [32m200 [0m2.159 ms - 10[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.192 ms - 1001[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.707 ms - 1001[0m
+[0mPOST /users/auth [32m200 [0m1.605 ms - 45[0m
+[0mPOST /users/auth [32m200 [0m78.909 ms - 63[0m
+[0mPOST /users/auth [32m200 [0m1.685 ms - 45[0m
+[0mPOST /users/auth [32m200 [0m78.215 ms - 63[0m
+[0mPOST /users/auth [32m200 [0m78.481 ms - 63[0m
+[0mPOST /users/auth [33m400 [0m78.231 ms - 29[0m
+[0mPOST /users/auth [32m200 [0m78.088 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.849 ms - 1001[0m
+[0mGET /events/eventlist?# [32m200 [0m1.127 ms - 1001[0m
+[0mPOST /users/auth?# [32m200 [0m77.853 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.137 ms - 1001[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.740 ms - 1001[0m
+[0mDELETE /events/deleteevent/1a94621a-877f-421e-b863-ec8b6700c609?# [32m200 [0m0.938 ms - 10[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.637 ms - 791[0m
+[0mGET /events/eventlist?# [32m200 [0m1.100 ms - 791[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.769 ms - 791[0m
+[0mPOST /users/auth?# [32m200 [0m75.548 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.639 ms - 791[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.725 ms - 791[0m
+[0mGET /events/eventlist?# [32m200 [0m1.886 ms - 791[0m
+[0mPOST /events/addevent?# [32m200 [0m19.816 ms - 46[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.444 ms - 969[0m
+[0mPOST /users/auth?# [32m200 [0m76.267 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m8.767 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.500 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.060 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.584 ms - 969[0m
+[0mPOST /users/auth?# [32m200 [0m78.664 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m78.818 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m78.556 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.057 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.228 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.550 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.264 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.101 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.539 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.684 ms - 969[0m
+[0mPOST /users/auth?# [32m200 [0m77.774 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.398 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.137 ms - 969[0m
+[0mPOST /users/auth [32m200 [0m77.672 ms - 63[0m
+[0mPOST /users/auth [32m200 [0m77.716 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.101 ms - 969[0m
+[0mPOST /events/eventlist/null?# [32m200 [0m2.564 ms - 2[0m
+[0mGET /events/eventlist?# [32m200 [0m1.157 ms - 969[0m
+[0mPOST /events/addevent?# [32m200 [0m1.004 ms - 29[0m
+[0mGET /events/eventlist?# [32m200 [0m2.190 ms - 969[0m
+[0mPOST /events/addevent?# [32m200 [0m0.993 ms - 29[0m
+[0mGET /events/eventlist?# [32m200 [0m1.065 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.122 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.497 ms - 969[0m
+[0mPOST /users/auth?# [32m200 [0m75.815 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m77.960 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m73.660 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m79.565 ms - 63[0m
+[0mPOST /users/auth?# [32m200 [0m75.176 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.493 ms - 969[0m
+[0mPOST /users/auth?# [32m200 [0m77.003 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.120 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.710 ms - 969[0m
+[0mGET /events/eventlist?# [32m200 [0m1.082 ms - 969[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.380 ms - 969[0m
+[0mPOST /events/addevent?# [32m200 [0m1.889 ms - 46[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.553 ms - 1153[0m
+[0mPOST /users/auth?# [32m200 [0m76.326 ms - 68[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.348 ms - 2[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.639 ms - 2[0m
+[0mGET /events/eventlist?# [32m200 [0m1.132 ms - 1153[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.483 ms - 2[0m
+[0mGET /events/eventlist?# [32m200 [0m1.172 ms - 1153[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.550 ms - 2[0m
+[0mGET /events/eventlist?# [32m200 [0m1.190 ms - 1153[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.322 ms - 2[0m
+[0mGET /events/eventlist?# [32m200 [0m1.135 ms - 1153[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.387 ms - 2[0m
+[0mPOST /events/addevent?# [32m200 [0m2.265 ms - 46[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.448 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m2.063 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m3.442 ms - 186[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.569 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.201 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.585 ms - 186[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.799 ms - 186[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m3.187 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.170 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.545 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.273 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.640 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.147 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.489 ms - 186[0m
+[0mPOST /users/auth?# [32m200 [0m79.253 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.648 ms - 1153[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.509 ms - 1153[0m
+[0mGET /events/eventlist?# [32m200 [0m1.147 ms - 1338[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.483 ms - 1153[0m
+[0mGET /events/eventlist?# [32m200 [0m1.182 ms - 1338[0m
+[0mPOST /users/auth?# [32m200 [0m76.154 ms - 68[0m
+[0mGET /events/eventlist?# [32m200 [0m1.734 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.482 ms - 186[0m
+[0mPOST /users/auth?# [32m200 [0m78.689 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.725 ms - 1153[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.655 ms - 1153[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.602 ms - 1153[0m
+[0mGET /events/eventlist?# [32m200 [0m1.164 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.161 ms - 1338[0m
+[0mPOST /users/auth?# [32m200 [0m79.506 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.198 ms - 1338[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.544 ms - 1153[0m
+[0mGET /events/eventlist?# [32m200 [0m5.690 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.416 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.306 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.332 ms - 1338[0m
+[0mPOST /users/auth?# [33m400 [0m77.046 ms - 29[0m
+[0mPOST /users/auth?# [32m200 [0m80.143 ms - 68[0m
+[0mGET /events/eventlist?# [32m200 [0m1.457 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m3.045 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.613 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.709 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m3.199 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.495 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.457 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.725 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m2.524 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m2.089 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.560 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.530 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.401 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.698 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.443 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.661 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.497 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m2.511 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.623 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m8.827 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.325 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.445 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.430 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.208 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.358 ms - 1338[0m
+[0mPOST /users/auth?# [32m200 [0m78.420 ms - 68[0m
+[0mGET /events/eventlist?# [32m200 [0m1.345 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m2.990 ms - 186[0m
+[0mGET /events/eventlist?# [32m200 [0m1.579 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.384 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.407 ms - 1338[0m
+[0mPOST /events/eventlist/Ravish?# [32m200 [0m3.006 ms - 186[0m
+[0mPOST /users/auth?# [32m200 [0m78.545 ms - 63[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.236 ms - 1153[0m
+[0mGET /events/eventlist?# [32m200 [0m1.464 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.548 ms - 1338[0m
+[0mGET /events/eventlist?# [32m200 [0m1.407 ms - 1338[0m
+[0mPOST /events/addevent?# [32m200 [0m1.231 ms - 29[0m
+[0mGET /events/eventlist?# [32m200 [0m1.375 ms - 1338[0m
+[0mPOST /users/auth?# [32m200 [0m78.710 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.413 ms - 1338[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.214 ms - 1153[0m
+[0mPOST /events/addevent?# [32m200 [0m2.328 ms - 46[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.126 ms - 1329[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.212 ms - 1329[0m
+[0mGET /events/eventlist?# [32m200 [0m1.535 ms - 1514[0m
+[0mGET /events/eventlist?# [32m200 [0m1.228 ms - 1514[0m
+[0mGET /events/eventlist?# [32m200 [0m1.382 ms - 1514[0m
+[0mGET /events/eventlist?# [32m200 [0m1.391 ms - 1514[0m
+[0mGET /events/eventlist?# [32m200 [0m1.765 ms - 1514[0m
+[0mPOST /users/auth?# [32m200 [0m78.691 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.654 ms - 1514[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.129 ms - 1329[0m
+[0mGET /events/eventlist?# [32m200 [0m1.257 ms - 1514[0m
+[0mGET /events/eventlist?# [32m200 [0m1.566 ms - 1514[0m
+[0mPOST /events/addevent?# [32m200 [0m2.315 ms - 46[0m
+[0mGET /events/eventlist?# [32m200 [0m1.425 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.514 ms - 1690[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.240 ms - 1505[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.048 ms - 1505[0m
+[0mPOST /users/auth?# [32m200 [0m77.175 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.510 ms - 1690[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m5.675 ms - 1505[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.027 ms - 1505[0m
+[0mGET /events/eventlist?# [32m200 [0m1.512 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.470 ms - 1690[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.296 ms - 1505[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.274 ms - 1505[0m
+[0mGET /events/eventlist?# [32m200 [0m1.596 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m2.732 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m2.009 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m2.194 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.804 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.614 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m2.094 ms - 1690[0m
+[0mPOST /users/auth?# [32m200 [0m78.965 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.697 ms - 1690[0m
+[0mPOST /users/auth?# [32m200 [0m78.734 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.512 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m10.149 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.662 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.349 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.186 ms - 1690[0m
+[0mGET /events/eventlist?# [32m200 [0m1.245 ms - 1690[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.814 ms - 1505[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m4.075 ms - 1505[0m
+[0mGET /events/eventlist?# [32m200 [0m1.229 ms - 1690[0m
+[0mPOST /users/auth?# [32m200 [0m79.831 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.158 ms - 1690[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.469 ms - 1505[0m
+[0mPOST /events/addevent?# [32m200 [0m2.188 ms - 46[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m2.150 ms - 1679[0m
+[0mGET /events/eventlist?# [32m200 [0m1.213 ms - 1864[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m3.932 ms - 1679[0m
+[0mPOST /events/eventlist/t?# [32m200 [0m6.508 ms - 1679[0m
+[0mGET /events/eventlist?# [32m200 [0m1.217 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.214 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.138 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.169 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.232 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.222 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.331 ms - 1864[0m
+[0mPOST /users/auth?# [32m200 [0m75.921 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.333 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.386 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.223 ms - 1864[0m
+[0mPOST /users/auth?# [32m200 [0m78.316 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.225 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.163 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.186 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.191 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.153 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.215 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.192 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.201 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.150 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.187 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.199 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.160 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.230 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.228 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.161 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.179 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.126 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.170 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.201 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.200 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m2.180 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.206 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.119 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.124 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.214 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.231 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.182 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.351 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.181 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.332 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.204 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.490 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.971 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.169 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.328 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.210 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.229 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.191 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m2.273 ms - 1864[0m
+
+npm ERR! application-name@0.0.1 start: `node ./bin/www`
+npm ERR! Exit status 143
+npm ERR! 
+npm ERR! Failed at the application-name@0.0.1 start script.
+npm ERR! This is most likely a problem with the application-name package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     node ./bin/www
+npm ERR! You can get their info via:
+npm ERR!     npm owner ls application-name
+npm ERR! There is likely additional logging output above.
+npm ERR! System Linux 3.13.0-36-generic
+npm ERR! command "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! cwd /node/happening
+npm ERR! node -v v0.10.32
+npm ERR! npm -v 1.4.28
+npm ERR! code ELIFECYCLE
+npm ERR! 
+npm ERR! Additional logging details can be found in:
+npm ERR!     /node/happening/npm-debug.log
+npm ERR! not ok code 0
+
+> application-name@0.0.1 start /node/happening
+> node ./bin/www
+
+[0mPOST /users/auth?# [32m200 [0m115.808 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m5.635 ms - 1864[0m
+[0mPOST /users/auth?# [32m200 [0m80.271 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m1.979 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.477 ms - 1864[0m
+[0mGET / [32m200 [0m279.637 ms - 667[0m
+[0mGET /javascripts/global.js [32m200 [0m1.650 ms - 9182[0m
+[0mGET /bootstrap/css/bootstrap.css [32m200 [0m483.816 ms - 132546[0m
+[0mGET /events/eventlist [32m200 [0m2.484 ms - 1864[0m
+[0mGET /users/userlist [32m200 [0m7.775 ms - 28801[0m
+[0mGET /favicon.ico [33m404 [0m19.560 ms - 1151[0m
+[0mGET / [36m304 [0m23.498 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m1.272 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.505 ms - -[0m
+[0mGET /events/eventlist [36m304 [0m2.329 ms - -[0m
+[0mGET /users/userlist [36m304 [0m5.430 ms - -[0m
+[0mGET /users [32m200 [0m47.882 ms - 1514[0m
+[0mGET /javascripts/global.js [36m304 [0m1.124 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m0.975 ms - -[0m
+[0mGET /events/eventlist [36m304 [0m1.706 ms - -[0m
+[0mGET /users/userlist [36m304 [0m2.795 ms - -[0m
+[0mGET /events [32m200 [0m123.828 ms - 2249[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m0.501 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.909 ms - -[0m
+[0mGET /events/eventlist [36m304 [0m1.923 ms - -[0m
+[0mGET /users/userlist [36m304 [0m10.954 ms - -[0m
+[0mGET /users [36m304 [0m28.570 ms - -[0m
+[0mGET /bootstrap/css/bootstrap.css [36m304 [0m0.727 ms - -[0m
+[0mGET /javascripts/global.js [36m304 [0m0.617 ms - -[0m
+[0mGET /events/eventlist [36m304 [0m2.535 ms - -[0m
+[0mGET /users/userlist [36m304 [0m3.872 ms - -[0m
+[0mPOST /users/auth?# [32m200 [0m76.860 ms - 63[0m
+[0mGET /events/eventlist?# [32m200 [0m3.246 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.478 ms - 1864[0m
+[0mGET /events/eventlist?# [32m200 [0m1.644 ms - 1864[0m

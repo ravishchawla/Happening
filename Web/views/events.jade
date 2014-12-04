@@ -1,0 +1,69 @@
+extends layout
+
+block content
+
+    nav(class="navbar navbar-default" role="navigation")
+        div(class="container-fluid")
+            div(class="navbar-header")
+                button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+            a(class="navbar-brand" href="/") happening
+            a(class="navbar-brand" href="/users") users
+            a(class="navbar-brand" href="/events") events
+
+    // Wrapper
+    #wrapper
+
+        // event INFO
+        #eventInfo
+            h2 event Info
+            p
+                strong Event Name:
+                |  <span id='eventName'></span>
+                br
+                strong Event Date:
+                |  <span id='eventDate'></span>
+                br
+                strong Event Time:
+                |  <span id='eventTime'></span>
+                br
+                strong Event Location:
+                |  <span id='eventLocation'></span>
+
+        // event LIST
+        h3 Login as User
+        #loginUser
+            fieldset
+                input#inputUserName(type='text', placeholder='User Name' class="form-control")
+                br
+                input#inputUserPassword(type='password', placeholder='User Name' class="form-control")
+                br
+                button#btnLoginUser(class="btn btn-default") Login User
+
+        #eventList
+            table(class="table")
+                thead
+                    th eventName
+                    th userid
+                    th location
+                    th date
+                    th time
+                    th Delete
+                tbody
+
+        // ADD event
+        h3 Add Event Details
+        #addevent
+            fieldSet
+                input#inputUserToken(type='text', placeholder='User token' class="form-control")
+                br
+                input#inputeventName(type='text', placeholder='Event Name' class="form-control")
+                br
+                input#inputeventdescription(type='text', placeholder='Event Description' class="form-control")
+                br
+                input#inputeventtime(type='text', placeholder='Event Time' class="form-control")
+                br
+                input#inputeventLocation(type='text', placeholder='Event Location' class="form-control")
+                br
+                input#inputeventdate(type='text', placeholder='Event Date' class="form-control")
+                br
+                button#btnAddevent(class="btn btn-default") Add event
